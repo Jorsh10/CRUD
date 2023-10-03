@@ -1,0 +1,52 @@
+body {
+    background: #ef32d9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-guardar {
+    width: 100%;
+    padding: 10px;
+    background-color: #20c997;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-guardar:hover,
+.btn-guardar:active {
+    color: #fff;
+    background-color: #13795b;
+    border-color: #13795b;
+}
+
+.btn-guardar:focus {
+    box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
+
+h4.text-center {
+    color: rgba(90, 5, 90, 0.936);
+    font-family: 'Potta One', cursive;
+    font-size: large;
+}
+
+.form-control {
+    background-color: rgb(245, 245, 238);
+}
+
+.container {
+    background-image: url("img/CQS.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+}
+
+tbody {
+    border-color: rgb(25, 6, 242);
+}
